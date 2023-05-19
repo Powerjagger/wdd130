@@ -30,9 +30,25 @@
 }
 
 body {
-    background-color: var(--primary-color)
+    background-color: var(--primary-color);
+    font-family:"Oswald", "Bruno Ace", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.card-img {
+    border: 10px solid var(--accent1-color)
+}
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;   
 }
 
+h2 {
+    margin: 0;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -45,12 +61,14 @@ header {
 .logo,
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 nav a {
     text-align: center;
     color: var(--accent1-color);
     text-decoration: none;
+    padding: 35px
 }
 
 nav a:hover {
@@ -67,11 +85,15 @@ background-color:var(--secondary-color);
     text-align: center;
 }
 
-#home title {
-    color: var(--accent1-color)
+#home-title {
+    font-family:'Oswald','Bruno Ace', sans-serif ;
+    color: var(--accent1-color);
+    font-size: 2em;
+    margin-top: 10px;
+    
 }
 
-#h4 {
+.h4 {
     color: var(--accent2-color)
 }
 
@@ -84,6 +106,10 @@ background-color:var(--secondary-color);
     background-color: var(--nav-hover-background-color);
     color: var(--nav-hover-link-color);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover,
@@ -97,13 +123,19 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: var(--paragraph-background-color)
 }
 
 .msg {
-    background-color: var(--nav-hover-link-color)
+    background-color: var(--nav-hover-link-color);
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -111,11 +143,14 @@ main section {
 }
 
 .msg p {
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
-    background-color: var(--secondary-color)
+    background-color: var(--secondary-color);
+    padding: 25px 50px;
 }
 
 footer a {
@@ -133,4 +168,8 @@ footer p{
 footer p a:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color)
+}
+
+footer.social img {
+    padding-top: 15px;
 }
