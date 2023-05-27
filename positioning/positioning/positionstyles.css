@@ -80,10 +80,10 @@ grid-template-columns:1fr 1fr;
   grid-column-gap: 50px; 
 } 
 .yellow3 {
-  width: 90%; 
+  width: 100%; 
   height: 100px; 
   background-color: gold;
-  margin-left: 24px;
+  float: right;
 
 } 
 .blue3 {
