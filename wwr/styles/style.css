@@ -45,6 +45,7 @@ body {
     border: 10px solid var(--accent1-color);
     transition: transform.5s;
     box-shadow: 5px 5px 10px #E67007;
+    width: 100%;
 }
 
 .card-img:hover {
