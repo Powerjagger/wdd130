@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+.card{
+    width: 250px;
+    margin: 0 auto ;
+    background-color: white;
+}
+
+.headerimage{
+    width: 100%;
+}
+
+main{
+    text-align: center;
+    color: gray;
+}
+
+main h1 {
+    color: black;
+}
+
+main h3{
+    color: blue;
+}
+
+.awesomeartical{
+    padding: 10%;
+    text-align: center;
+}
+
+footer{
+    grid-template-columns: auto;
+    color: white
+}
